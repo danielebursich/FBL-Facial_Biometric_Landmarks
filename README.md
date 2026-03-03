@@ -130,9 +130,41 @@ The addon supports **27 Farkas standard landmarks**, covering the full face incl
 
 ## Scientific Reference
 
-> Farkas, L.G. (1994). *Anthropometry of the Head and Face*, 2nd ed. Raven Press, New York.
+Allanson, J. E., Cunniff, C., Hoyme, H. E., McGaughran, J., Muenke, M., & Neri, G. (2009). Elements of morphology: Standard terminology for the head and face. American Journal of Medical Genetics Part A.
 
-> Farkas, L.G. & Munro, I.R. (1987). *Anthropometric Facial Proportions in Medicine*. Charles C Thomas, Springfield.
+Barbera, A. L., Sampson, W. J., & Townsend, G. C. (2009). An evaluation of head position and craniofacial reference line variation. HOMO, 60(1), 1–28. https://doi.org/10.1016/j.jchb.2008.05.003
+
+Bookstein, F. L. (1991). Morphometric tools for landmark data: Geometry and biology. Cambridge University Press.
+
+Bruner, E., & Manzi, G. (2007). Landmark-based shape analysis of the archaic Homo calvarium from Ceprano (Italy). American Journal of Physical Anthropology, 132, 355–366. https://doi.org/10.1002/ajpa.20545
+
+Cevidanes, L. H. S., Franco, A. A., Gerig, G., Proffit, W. R., Slice, D. E., Enlow, D. H., Lederman, H. M., Amorim, L., Scanavini, M. A., & Vigorito, J. W. (2005). Comparison of relative mandibular growth vectors with high-resolution 3-dimensional imaging. American Journal of Orthodontics and Dentofacial Orthopedics, 128(1), 27–34. https://doi.org/10.1016/j.ajodo.2004.03.033
+
+Cuccia, A. M., & Caradonna, C. (2009). The natural head position: Different techniques of head positioning in the study of craniocervical posture. Minerva Stomatologica, 58(11–12).
+
+Farkas, L. G. (1994). Anthropometry of the head and face (2nd ed.). Raven Press.
+
+Farkas, L. G., & Munro, I. R. (1987). Anthropometric facial proportions in medicine. Charles C Thomas.
+
+Grant, S. F. A., et al. (2009). A genome-wide association study identifies a locus for nonsyndromic cleft lip with or without cleft palate on 8q24. The Journal of Pediatrics, 155(6), 909–913. https://doi.org/10.1016/j.jpeds.2009.06.020
+
+Gwilliam, J. R., Cunningham, S. J., & Hutton, T. J. (2006). Reproducibility of soft tissue landmarks on three-dimensional facial scans. European Journal of Orthodontics, 28, 408–415.
+
+Hall, J. G., et al. (2009). Elements of morphology: Standard terminology for the periorbital region. American Journal of Medical Genetics Part A, 149A(1), 29–39.
+
+Hennekam, R. C. M., Cormier-Daire, V., Hall, J. G., Méhes, K., Patton, M., & Stevenson, R. E. (2009). Elements of morphology: Standard terminology for the nose and philtrum. American Journal of Medical Genetics Part A, 149A(1), 61–76. https://doi.org/10.1002/ajmg.a.32600
+
+Kau, C. H., & Richmond, S. (2008). Three-dimensional imaging for orthodontics and craniofacial assessment. Orthodontics & Craniofacial Research.
+
+Kau, C. H., & Richmond, S. (2010). Three-dimensional analysis of facial morphology. Orthodontics & Craniofacial Research.
+
+McIntyre, G. T., & Mossey, P. A. (2003). Size and shape measurement in contemporary cephalometrics. European Journal of Orthodontics, 25, 231–237.
+
+Richmond, S., Toma, A. M., & Zhurov, A. I. (2009). Three-dimensional facial imaging in clinical practice. Orthodontics & Craniofacial Research.
+
+Toma, A. M., Zhurov, A., Playle, R., Ong, E., & Richmond, S. (2009). Reproducibility of facial soft tissue landmarks on 3D laser-scanned facial images. Orthodontics & Craniofacial Research, 12, 33–42.
+
+Zhurov, A. I., Kau, C. H., & Richmond, S. (2005). Computer methods for measuring 3D facial morphology. In J. Middleton, M. G. Shrive, & M. L. Jones (Eds.), Computer Methods in Biomechanics and Biomedical Engineering – 5. FIRST Numerics Ltd.
 
 ---
 
