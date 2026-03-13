@@ -282,6 +282,7 @@ class FacialBiomProps(PropertyGroup):
     select_radius:  FloatProperty(name="Select Radius (m)", default=0.01, min=0.0001, max=1.0)
     active_landmark:StringProperty(default="")
     export_path:    StringProperty(name="Export Path", default="//facial_measurements.txt", subtype='FILE_PATH')
+    show_schematic: BoolProperty(name="Show Schematic", default=True)
     show_labels:    BoolProperty(name="Show Labels",    default=True)
     show_lines:     BoolProperty(name="Show Lines",     default=True)
     show_distances: BoolProperty(name="Show Distances", default=True)
@@ -337,7 +338,11 @@ def _tag():
     for w in bpy.context.window_manager.windows:
         for a in w.screen.areas:
             if a.type=='VIEW_3D': a.tag_redraw()
-def _in_panel(mx,my): return P_X<=mx<=P_X+P_W and P_Y<=my<=P_Y+P_H
+def _in_panel(mx,my):
+    try:
+        if not bpy.context.scene.facial_biom.show_schematic: return False
+    except Exception: pass
+    return P_X<=mx<=P_X+P_W and P_Y<=my<=P_Y+P_H
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  AUTO DETECTION
@@ -682,7 +687,7 @@ def draw_2d():
     props=ctx.scene.facial_biom
     region=ctx.region; rv3d=ctx.region_data
     if not region or not rv3d: return
-    draw_schematic()
+    if props.show_schematic: draw_schematic()
     placed={d[0]:mathutils.Vector(get_lm_pos(d[0])) for d in LANDMARK_DEFS if lm_placed(d[0])}
     fid=0
     if props.show_labels and placed:
@@ -1192,6 +1197,9 @@ class FBIO_PT_Main(Panel):
         row.operator("fbio.toggle_overlay",text="ON" if on else "OFF",depress=on)
         if on:
             col=b.column(align=True)
+            icon_sch='HIDE_OFF' if p.show_schematic else 'HIDE_ON'
+            col.prop(p,"show_schematic",icon=icon_sch)
+            col.separator()
             col.prop(p,"show_labels"); col.prop(p,"show_lines"); col.prop(p,"show_distances")
             col.prop(p,"label_size"); col.prop(p,"line_thickness")
             col.prop(p,"line_color"); col.prop(p,"label_color"); col.prop(p,"dist_color")
